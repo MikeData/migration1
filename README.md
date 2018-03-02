@@ -1,7 +1,9 @@
 # migration1
 first go at migration.
 
-The files you want are the combinedyears files. The archived file just contains unjoined stages I may need later.
+The files you want are the combinedyears files, there are 3 of them in loadfiles.zip (See below for why there are 3 files). 
+
+If we have issues, there is a archive of all the individual single-year CSVs at the below link you can try. https://www.dropbox.com/s/jdzcece3lfwk69y/stageData.zip?dl=0 
 
 
 ### Age Groups
