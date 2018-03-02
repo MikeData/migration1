@@ -32,6 +32,7 @@ Quinary age groups	(AGQ)
 	85 - 89
 	90 and over
   
+  
 Alternative age groups 1	 (AG1)
 0 - 16
 	17 - 18
@@ -39,6 +40,8 @@ Alternative age groups 1	 (AG1)
 	22 - 59
 	60 - 64
 	65 and over
+	
+	
 Alternative age groups 2	(AG2)
 0 - 14
 	15 - 24
