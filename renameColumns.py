@@ -14,14 +14,14 @@ for f in files:
 
     replace = {
             "Time_codelist":"calendar-years_codelist",
-            "Geography":"uk-only",
+            "Geography_codelist":"uk-only",
     }
 
 
     df = pd.read_csv(f)
 
     lowerCase = False
-    lowerCaseFrom = "geography"
+    lowerCaseFrom = "Geography"
 
     newColumnHeaders = []
     for col in df.columns.values:
