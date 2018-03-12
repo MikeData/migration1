@@ -10,6 +10,9 @@ Clone this repo and download all the relevent (4.01) migration .xls files into i
 
 note. On MAC you'll need to `chmod +x convertAll.sh` first.
 
+You can add or subtract years from the CSV to be outputted by changing this file. It's pretty self explanatory.
+
+
 
 ### Age Groups
 
