@@ -17,7 +17,5 @@ python migration.py "underlyingdatasheet4.01ipscitizenshipgroupbysexbyagebycount
 python migration.py "underlyingdatasheet4.01ipscitizenshipgroupbysexbyagebycountryoflastornextresidence2015.xls"
 python migration.py "underlyingdatasheet4.01ipscitizenshipgroupbysexbyagebycountryoflastornextresidence2016.xls"
 
-
 python createTimeSeries.py
 
-python renameColumns.py
