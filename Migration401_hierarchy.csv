@@ -1,0 +1,691 @@
+Codelist,Code,Label,ParentCode
+migration-country,all-countries-of-last-or-next-residence,All countries of last or next residence,
+migration-country,european-union,European Union,all-countries-of-last-or-next-residence
+migration-country,european-union-eu15,European Union EU15,european-union
+migration-country,european-union-eu8,European Union EU8,european-union
+migration-country,european-union-eu2,European Union EU2,european-union
+migration-country,other-european-union,Other European Union,european-union
+migration-country,non-european-union,Non European Union,all-countries-of-last-or-next-residence
+migration-country,europe-exc-european-union,Europe exc European Union,non-european-union
+migration-country,asia,Asia,non-european-union
+migration-country,middle-east-and-central-asia,Middle East and Central Asia,asia
+migration-country,east-asia,East Asia,asia
+migration-country,south-asia,South Asia,asia
+migration-country,south-east-asia,South East Asia,asia
+migration-country,rest-of-world,Rest of World,non-european-union
+migration-country,sub-saharan-africa,Sub-Saharan Africa,rest-of-world
+migration-country,north-africa,North Africa,rest-of-world
+migration-country,north-america,North America,rest-of-world
+migration-country,central-and-south-america,Central and South America,rest-of-world
+migration-country,oceania,Oceania,rest-of-world
+migration-country,other-groupings,Other Groupings,all-countries-of-last-or-next-residence
+migration-country,european-economic-area-eea,European Economic Area (EEA),other-groupings
+migration-country,european-free-trade-association-efta,European Free Trade Association (EFTA),other-groupings
+migration-country,commonwealth,Commonwealth,other-groupings
+migration-country,non-european-union-and-non-commonwealth,Non European Union and Non Commonwealth,other-groupings
+migration-country,europe-inc-european-union,Europe inc European Union,other-groupings
+migration-country,old-commonwealth,Old Commonwealth,commonwealth
+migration-country,new-commonwealth,New Commonwealth,commonwealth
+migration-country,austria,Austria,european-union-eu15
+migration-country,belgium,Belgium,european-union-eu15
+migration-country,denmark,Denmark,european-union-eu15
+migration-country,finland,Finland,european-union-eu15
+migration-country,aland-islands,Aland Islands,european-union-eu15
+migration-country,france,France,european-union-eu15
+migration-country,germany,Germany,european-union-eu15
+migration-country,gibraltar,Gibraltar,european-union-eu15
+migration-country,greece,Greece,european-union-eu15
+migration-country,republic-of-ireland,Republic of Ireland,european-union-eu15
+migration-country,italy,Italy,european-union-eu15
+migration-country,luxembourg,Luxembourg,european-union-eu15
+migration-country,netherlands,Netherlands,european-union-eu15
+migration-country,portugal,Portugal,european-union-eu15
+migration-country,azores-and-madeira,Azores and Madeira,european-union-eu15
+migration-country,spain-and-balearic-islands,Spain and Balearic Islands,european-union-eu15
+migration-country,canary-islands,Canary Islands,european-union-eu15
+migration-country,spain,Spain (not otherwise specified),european-union-eu15
+migration-country,sweden,Sweden,european-union-eu15
+migration-country,czech-republic,Czech Republic,european-union-eu8
+migration-country,estonia,Estonia,european-union-eu8
+migration-country,hungary,Hungary,european-union-eu8
+migration-country,latvia,Latvia,european-union-eu8
+migration-country,lithuania,Lithuania,european-union-eu8
+migration-country,poland,Poland,european-union-eu8
+migration-country,slovakia,Slovakia,european-union-eu8
+migration-country,slovenia,Slovenia,european-union-eu8
+migration-country,bulgaria,Bulgaria,european-union-eu2
+migration-country,romania,Romania,european-union-eu2
+migration-country,cyprus-ex,Cyprus (Ex),other-european-union
+migration-country,cyprus-southern,"Cyprus, Southern",other-european-union
+migration-country,malta,Malta,other-european-union
+migration-country,croatia,Croatia,other-european-union
+migration-country,albania,Albania,europe-exc-european-union
+migration-country,andorra,Andorra,europe-exc-european-union
+migration-country,armenia,Armenia,europe-exc-european-union
+migration-country,azerbaijan,Azerbaijan,europe-exc-european-union
+migration-country,belarus,Belarus,europe-exc-european-union
+migration-country,bosnia-herzegovina,Bosnia Herzegovina,europe-exc-european-union
+migration-country,cyprus-northern,"Cyprus, Northern ",europe-exc-european-union
+migration-country,czechoslovakia-ex,Czechoslovakia (Ex),europe-exc-european-union
+migration-country,faeroe-islands,Faeroe Islands,europe-exc-european-union
+migration-country,georgia,Georgia,europe-exc-european-union
+migration-country,greenland,Greenland,europe-exc-european-union
+migration-country,iceland,Iceland,europe-exc-european-union
+migration-country,kosova,Kosova,europe-exc-european-union
+migration-country,liechtenstein,Liechtenstein,europe-exc-european-union
+migration-country,macedonia,Macedonia,europe-exc-european-union
+migration-country,moldova,Moldova,europe-exc-european-union
+migration-country,monaco,Monaco,europe-exc-european-union
+migration-country,montenegro,Montenegro,europe-exc-european-union
+migration-country,norway,Norway,europe-exc-european-union
+migration-country,bouvet-island,Bouvet Island,europe-exc-european-union
+migration-country,svalbard-and-jan-mayen,Svalbard and Jan Mayen,europe-exc-european-union
+migration-country,russia,Russia,europe-exc-european-union
+migration-country,san-marino,San Marino,europe-exc-european-union
+migration-country,serbia,Serbia,europe-exc-european-union
+migration-country,switzerland,Switzerland,europe-exc-european-union
+migration-country,turkey,Turkey,europe-exc-european-union
+migration-country,ukraine,Ukraine,europe-exc-european-union
+migration-country,ussr-ex,USSR (Ex),europe-exc-european-union
+migration-country,vatican-city,Vatican City,europe-exc-european-union
+migration-country,yugoslavia-ex,Yugoslavia (Ex),europe-exc-european-union
+migration-country,yugoslavia-not-otherwise-specified,Yugoslavia (not otherwise specified),europe-exc-european-union
+migration-country,afghanistan,Afghanistan,middle-east-and-central-asia
+migration-country,bahrain,Bahrain,middle-east-and-central-asia
+migration-country,iran,Iran,middle-east-and-central-asia
+migration-country,iraq,Iraq,middle-east-and-central-asia
+migration-country,israel,Israel,middle-east-and-central-asia
+migration-country,jordan,Jordan,middle-east-and-central-asia
+migration-country,kazakhstan,Kazakhstan,middle-east-and-central-asia
+migration-country,kuwait,Kuwait,middle-east-and-central-asia
+migration-country,kyrgyzstan,Kyrgyzstan,middle-east-and-central-asia
+migration-country,lebanon,Lebanon,middle-east-and-central-asia
+migration-country,oman,Oman,middle-east-and-central-asia
+migration-country,palestine,Palestine,middle-east-and-central-asia
+migration-country,qatar,Qatar,middle-east-and-central-asia
+migration-country,saudi-arabia,Saudi Arabia,middle-east-and-central-asia
+migration-country,syria,Syria,middle-east-and-central-asia
+migration-country,tajikistan,Tajikistan,middle-east-and-central-asia
+migration-country,turkmenistan,Turkmenistan,middle-east-and-central-asia
+migration-country,united-arab-emirates,United Arab Emirates,middle-east-and-central-asia
+migration-country,uzbekistan,Uzbekistan,middle-east-and-central-asia
+migration-country,yemen,Yemen,middle-east-and-central-asia
+migration-country,china,China,east-asia
+migration-country,hong-kong,Hong Kong,east-asia
+migration-country,macao,Macao,east-asia
+migration-country,mongolia,Mongolia,east-asia
+migration-country,japan,Japan,east-asia
+migration-country,korea-north-dpr,"Korea, North / DPR",east-asia
+migration-country,korea-south-republic,"Korea, South / Republic",east-asia
+migration-country,taiwan,Taiwan,east-asia
+migration-country,bangladesh,Bangladesh,south-asia
+migration-country,bhutan,Bhutan,south-asia
+migration-country,british-indian-ocean-territory,British Indian Ocean Territory,south-asia
+migration-country,india,India,south-asia
+migration-country,maldives,Maldives,south-asia
+migration-country,nepal,Nepal,south-asia
+migration-country,pakistan,Pakistan,south-asia
+migration-country,sri-lanka,Sri Lanka,south-asia
+migration-country,brunei,Brunei,south-east-asia
+migration-country,cambodia-kampuchea,Cambodia / Kampuchea,south-east-asia
+migration-country,east-timor,East Timor,south-east-asia
+migration-country,indonesia,Indonesia,south-east-asia
+migration-country,laos,Laos,south-east-asia
+migration-country,malaysia,Malaysia,south-east-asia
+migration-country,myanmar-burma,Myanmar / Burma,south-east-asia
+migration-country,philippines,Philippines,south-east-asia
+migration-country,singapore,Singapore,south-east-asia
+migration-country,thailand,Thailand,south-east-asia
+migration-country,vietnam,Vietnam,south-east-asia
+migration-country,angola,Angola,sub-saharan-africa
+migration-country,benin,Benin,sub-saharan-africa
+migration-country,botswana,Botswana,sub-saharan-africa
+migration-country,burkina-faso,Burkina Faso,sub-saharan-africa
+migration-country,burundi,Burundi,sub-saharan-africa
+migration-country,cameroon,Cameroon,sub-saharan-africa
+migration-country,cape-verde,Cape Verde,sub-saharan-africa
+migration-country,central-african-republic,Central African republic,sub-saharan-africa
+migration-country,chad,Chad,sub-saharan-africa
+migration-country,comoros,Comoros,sub-saharan-africa
+migration-country,congo,Congo,sub-saharan-africa
+migration-country,congo-democratic-republic,Congo (Democratic Republic),sub-saharan-africa
+migration-country,djibouti,Djibouti,sub-saharan-africa
+migration-country,equatorial-guinea,Equatorial Guinea,sub-saharan-africa
+migration-country,eritrea,Eritrea,sub-saharan-africa
+migration-country,ethiopia,Ethiopia,sub-saharan-africa
+migration-country,gabon,Gabon,sub-saharan-africa
+migration-country,gambia-the,"Gambia, The",sub-saharan-africa
+migration-country,ghana,Ghana,sub-saharan-africa
+migration-country,guinea,Guinea,sub-saharan-africa
+migration-country,guinea---bissau,Guinea - Bissau,sub-saharan-africa
+migration-country,ivory-coast,Ivory Coast,sub-saharan-africa
+migration-country,kenya,Kenya,sub-saharan-africa
+migration-country,lesotho,Lesotho,sub-saharan-africa
+migration-country,liberia,Liberia,sub-saharan-africa
+migration-country,madagascar,Madagascar,sub-saharan-africa
+migration-country,malawi,Malawi,sub-saharan-africa
+migration-country,mali,Mali,sub-saharan-africa
+migration-country,mauritius,Mauritius,sub-saharan-africa
+migration-country,mayotte,Mayotte,sub-saharan-africa
+migration-country,mozambique,Mozambique,sub-saharan-africa
+migration-country,namibia,Namibia,sub-saharan-africa
+migration-country,niger,Niger,sub-saharan-africa
+migration-country,nigeria,Nigeria,sub-saharan-africa
+migration-country,reunion,Reunion,sub-saharan-africa
+migration-country,rwanda,Rwanda,sub-saharan-africa
+migration-country,sao-tome-and-principe,Sao Tome and Principe,sub-saharan-africa
+migration-country,senegal,Senegal,sub-saharan-africa
+migration-country,seychelles,Seychelles,sub-saharan-africa
+migration-country,sierra-leone,Sierra Leone,sub-saharan-africa
+migration-country,somalia,Somalia,sub-saharan-africa
+migration-country,south-africa,South Africa,sub-saharan-africa
+migration-country,st-helena-ascension-tristan-da-cunha,St Helena / Ascension / Tristan da Cunha,sub-saharan-africa
+migration-country,sudan-south,"Sudan, South",sub-saharan-africa
+migration-country,swaziland,Swaziland,sub-saharan-africa
+migration-country,tanzania,Tanzania,sub-saharan-africa
+migration-country,togo,Togo,sub-saharan-africa
+migration-country,uganda,Uganda,sub-saharan-africa
+migration-country,zambia,Zambia,sub-saharan-africa
+migration-country,zimbabwe,Zimbabwe,sub-saharan-africa
+migration-country,algeria,Algeria,north-africa
+migration-country,egypt,Egypt,north-africa
+migration-country,mauritania,Mauritania,north-africa
+migration-country,morocco,Morocco,north-africa
+migration-country,sudan-ex,Sudan (Ex),north-africa
+migration-country,sudan,Sudan,north-africa
+migration-country,libya,Libya,north-africa
+migration-country,tunisia,Tunisia,north-africa
+migration-country,western-sahara,Western Sahara,north-africa
+migration-country,canada,Canada,north-america
+migration-country,united-states-of-america-usa,United States of America (USA),north-america
+migration-country,puerto-rico,Puerto Rico,north-america
+migration-country,united-states-virgin-islands-the,"United States Virgin Islands, The",north-america
+migration-country,anguilla,Anguilla,central-and-south-america
+migration-country,antigua-and-barbuda,Antigua and Barbuda,central-and-south-america
+migration-country,antilles-curacao,Antilles / Curacao,central-and-south-america
+migration-country,argentina,Argentina,central-and-south-america
+migration-country,aruba,Aruba,central-and-south-america
+migration-country,bahamas-the,"Bahamas, The",central-and-south-america
+migration-country,barbados,Barbados,central-and-south-america
+migration-country,belize,Belize,central-and-south-america
+migration-country,bermuda,Bermuda,central-and-south-america
+migration-country,bolivia,Bolivia,central-and-south-america
+migration-country,brazil,Brazil,central-and-south-america
+migration-country,british-virgin-islands,British Virgin Islands,central-and-south-america
+migration-country,cayman-islands,Cayman Islands,central-and-south-america
+migration-country,chile,Chile,central-and-south-america
+migration-country,colombia,Colombia,central-and-south-america
+migration-country,costa-rica,Costa Rica,central-and-south-america
+migration-country,cuba,Cuba,central-and-south-america
+migration-country,dominica,Dominica,central-and-south-america
+migration-country,dominican-republic,Dominican Republic,central-and-south-america
+migration-country,ecuador,Ecuador,central-and-south-america
+migration-country,el-salvador,El Salvador,central-and-south-america
+migration-country,falkland-islands-british-antarctic,Falkland Islands / British Antarctic,central-and-south-america
+migration-country,french-guiana,French Guiana,central-and-south-america
+migration-country,grenada,Grenada,central-and-south-america
+migration-country,guadeloupe,Guadeloupe,central-and-south-america
+migration-country,guatemala,Guatemala,central-and-south-america
+migration-country,guyana,Guyana,central-and-south-america
+migration-country,haiti,Haiti,central-and-south-america
+migration-country,honduras,Honduras,central-and-south-america
+migration-country,jamaica,Jamaica,central-and-south-america
+migration-country,martinique,Martinique,central-and-south-america
+migration-country,mexico,Mexico,central-and-south-america
+migration-country,montserrat,Montserrat,central-and-south-america
+migration-country,nicaragua,Nicaragua,central-and-south-america
+migration-country,panama,Panama,central-and-south-america
+migration-country,paraguay,Paraguay,central-and-south-america
+migration-country,peru,Peru,central-and-south-america
+migration-country,south-georgia-and-south-sandwich-islands,South Georgia and South Sandwich Islands,central-and-south-america
+migration-country,st-barthelemy,St Barthelemy,central-and-south-america
+migration-country,st-kitts-and-nevis,St Kitts and Nevis,central-and-south-america
+migration-country,st-lucia,St Lucia,central-and-south-america
+migration-country,st-martin,St Martin,central-and-south-america
+migration-country,st-pierre-and-miquelon,St Pierre and Miquelon,central-and-south-america
+migration-country,st-vincent-and-the-grenadines,St Vincent and the Grenadines,central-and-south-america
+migration-country,suriname,Suriname,central-and-south-america
+migration-country,trinidad-and-tobago,Trinidad and Tobago,central-and-south-america
+migration-country,turks-and-caicos-islands,Turks and Caicos Islands,central-and-south-america
+migration-country,uruguay,Uruguay,central-and-south-america
+migration-country,venezuela,Venezuela,central-and-south-america
+migration-country,american-samoa,American Samoa ,oceania
+migration-country,antarctica-not-otherwise-specified,Antarctica (not otherwise specified),oceania
+migration-country,australia,Australia,oceania
+migration-country,cocos-island,Cocos Island,oceania
+migration-country,norfolk-island,Norfolk Island,oceania
+migration-country,christmas-island,Christmas Island ,oceania
+migration-country,heard-island-and-mcdonald-islands,Heard Island and McDonald Islands,oceania
+migration-country,cook-island,Cook Island,oceania
+migration-country,fiji,Fiji,oceania
+migration-country,french-polynesia,French Polynesia,oceania
+migration-country,french-southern-antarctic-territories,French Southern / Antarctic Territories,oceania
+migration-country,guam,Guam,oceania
+migration-country,kiribati-and-other-pacific-islands,Kiribati (and other Pacific Islands),oceania
+migration-country,marshall-islands,Marshall Islands,oceania
+migration-country,micronesia,Micronesia ,oceania
+migration-country,nauru,Nauru,oceania
+migration-country,new-caledonia,New Caledonia,oceania
+migration-country,new-zealand,New Zealand,oceania
+migration-country,tokelau,Tokelau,oceania
+migration-country,niue-island,Niue Island,oceania
+migration-country,northern-mariana-islands,Northern Mariana Islands,oceania
+migration-country,pacific-islands-inc-palau,Pacific Islands (inc Palau),oceania
+migration-country,papua-new-guinea,Papua New Guinea,oceania
+migration-country,pitcairn-island,Pitcairn Island,oceania
+migration-country,samoa-western,"Samoa, Western",oceania
+migration-country,solomon-islands,Solomon Islands,oceania
+migration-country,tonga,Tonga,oceania
+migration-country,tuvalu,Tuvalu,oceania
+migration-country,vanuatu,Vanuatu,oceania
+migration-country,wallis-and-futuna-islands,Wallis and Futuna Islands,oceania
+migration-country,australia,Australia,old-commonwealth
+migration-country,heard-island-and-mcdonald-islands,Heard Island and McDonald Islands,old-commonwealth
+migration-country,canada,Canada,old-commonwealth
+migration-country,new-zealand,New Zealand,old-commonwealth
+migration-country,south-africa,South Africa,old-commonwealth
+migration-country,albania,Albania,non-european-union-and-non-commonwealth
+migration-country,andorra,Andorra,non-european-union-and-non-commonwealth
+migration-country,armenia,Armenia,non-european-union-and-non-commonwealth
+migration-country,azerbaijan,Azerbaijan,non-european-union-and-non-commonwealth
+migration-country,belarus,Belarus,non-european-union-and-non-commonwealth
+migration-country,bosnia-herzegovina,Bosnia Herzegovina,non-european-union-and-non-commonwealth
+migration-country,cyprus-northern,"Cyprus, Northern ",non-european-union-and-non-commonwealth
+migration-country,czechoslovakia-ex,Czechoslovakia (Ex),non-european-union-and-non-commonwealth
+migration-country,faeroe-islands,Faeroe Islands,non-european-union-and-non-commonwealth
+migration-country,georgia,Georgia,non-european-union-and-non-commonwealth
+migration-country,greenland,Greenland,non-european-union-and-non-commonwealth
+migration-country,iceland,Iceland,non-european-union-and-non-commonwealth
+migration-country,kosova,Kosova,non-european-union-and-non-commonwealth
+migration-country,liechtenstein,Liechtenstein,non-european-union-and-non-commonwealth
+migration-country,macedonia,Macedonia,non-european-union-and-non-commonwealth
+migration-country,moldova,Moldova,non-european-union-and-non-commonwealth
+migration-country,monaco,Monaco,non-european-union-and-non-commonwealth
+migration-country,montenegro,Montenegro,non-european-union-and-non-commonwealth
+migration-country,norway,Norway,non-european-union-and-non-commonwealth
+migration-country,bouvet-island,Bouvet Island,non-european-union-and-non-commonwealth
+migration-country,svalbard-and-jan-mayen,Svalbard and Jan Mayen,non-european-union-and-non-commonwealth
+migration-country,russia,Russia,non-european-union-and-non-commonwealth
+migration-country,san-marino,San Marino,non-european-union-and-non-commonwealth
+migration-country,serbia,Serbia,non-european-union-and-non-commonwealth
+migration-country,switzerland,Switzerland,non-european-union-and-non-commonwealth
+migration-country,turkey,Turkey,non-european-union-and-non-commonwealth
+migration-country,ukraine,Ukraine,non-european-union-and-non-commonwealth
+migration-country,ussr-ex,USSR (Ex),non-european-union-and-non-commonwealth
+migration-country,vatican-city,Vatican City,non-european-union-and-non-commonwealth
+migration-country,yugoslavia-ex,Yugoslavia (Ex),non-european-union-and-non-commonwealth
+migration-country,yugoslavia-not-otherwise-specified,Yugoslavia (not otherwise specified),non-european-union-and-non-commonwealth
+migration-country,afghanistan,Afghanistan,non-european-union-and-non-commonwealth
+migration-country,bahrain,Bahrain,non-european-union-and-non-commonwealth
+migration-country,iran,Iran,non-european-union-and-non-commonwealth
+migration-country,iraq,Iraq,non-european-union-and-non-commonwealth
+migration-country,israel,Israel,non-european-union-and-non-commonwealth
+migration-country,jordan,Jordan,non-european-union-and-non-commonwealth
+migration-country,kazakhstan,Kazakhstan,non-european-union-and-non-commonwealth
+migration-country,kuwait,Kuwait,non-european-union-and-non-commonwealth
+migration-country,kyrgyzstan,Kyrgyzstan,non-european-union-and-non-commonwealth
+migration-country,lebanon,Lebanon,non-european-union-and-non-commonwealth
+migration-country,oman,Oman,non-european-union-and-non-commonwealth
+migration-country,palestine,Palestine,non-european-union-and-non-commonwealth
+migration-country,qatar,Qatar,non-european-union-and-non-commonwealth
+migration-country,saudi-arabia,Saudi Arabia,non-european-union-and-non-commonwealth
+migration-country,syria,Syria,non-european-union-and-non-commonwealth
+migration-country,tajikistan,Tajikistan,non-european-union-and-non-commonwealth
+migration-country,turkmenistan,Turkmenistan,non-european-union-and-non-commonwealth
+migration-country,united-arab-emirates,United Arab Emirates,non-european-union-and-non-commonwealth
+migration-country,uzbekistan,Uzbekistan,non-european-union-and-non-commonwealth
+migration-country,yemen,Yemen,non-european-union-and-non-commonwealth
+migration-country,china,China,non-european-union-and-non-commonwealth
+migration-country,hong-kong,Hong Kong,non-european-union-and-non-commonwealth
+migration-country,macao,Macao,non-european-union-and-non-commonwealth
+migration-country,mongolia,Mongolia,non-european-union-and-non-commonwealth
+migration-country,japan,Japan,non-european-union-and-non-commonwealth
+migration-country,korea-north-dpr,"Korea, North / DPR",non-european-union-and-non-commonwealth
+migration-country,korea-south-republic,"Korea, South / Republic",non-european-union-and-non-commonwealth
+migration-country,taiwan,Taiwan,non-european-union-and-non-commonwealth
+migration-country,bangladesh,Bangladesh,non-european-union-and-non-commonwealth
+migration-country,bhutan,Bhutan,non-european-union-and-non-commonwealth
+migration-country,british-indian-ocean-territory,British Indian Ocean Territory,non-european-union-and-non-commonwealth
+migration-country,india,India,non-european-union-and-non-commonwealth
+migration-country,maldives,Maldives,non-european-union-and-non-commonwealth
+migration-country,nepal,Nepal,non-european-union-and-non-commonwealth
+migration-country,pakistan,Pakistan,non-european-union-and-non-commonwealth
+migration-country,sri-lanka,Sri Lanka,non-european-union-and-non-commonwealth
+migration-country,brunei,Brunei,non-european-union-and-non-commonwealth
+migration-country,cambodia-kampuchea,Cambodia / Kampuchea,non-european-union-and-non-commonwealth
+migration-country,east-timor,East Timor,non-european-union-and-non-commonwealth
+migration-country,indonesia,Indonesia,non-european-union-and-non-commonwealth
+migration-country,laos,Laos,non-european-union-and-non-commonwealth
+migration-country,malaysia,Malaysia,non-european-union-and-non-commonwealth
+migration-country,myanmar-burma,Myanmar / Burma,non-european-union-and-non-commonwealth
+migration-country,philippines,Philippines,non-european-union-and-non-commonwealth
+migration-country,singapore,Singapore,non-european-union-and-non-commonwealth
+migration-country,thailand,Thailand,non-european-union-and-non-commonwealth
+migration-country,vietnam,Vietnam,non-european-union-and-non-commonwealth
+migration-country,angola,Angola,non-european-union-and-non-commonwealth
+migration-country,benin,Benin,non-european-union-and-non-commonwealth
+migration-country,botswana,Botswana,non-european-union-and-non-commonwealth
+migration-country,burkina-faso,Burkina Faso,non-european-union-and-non-commonwealth
+migration-country,burundi,Burundi,non-european-union-and-non-commonwealth
+migration-country,cameroon,Cameroon,non-european-union-and-non-commonwealth
+migration-country,cape-verde,Cape Verde,non-european-union-and-non-commonwealth
+migration-country,central-african-republic,Central African republic,non-european-union-and-non-commonwealth
+migration-country,chad,Chad,non-european-union-and-non-commonwealth
+migration-country,comoros,Comoros,non-european-union-and-non-commonwealth
+migration-country,congo,Congo,non-european-union-and-non-commonwealth
+migration-country,congo-democratic-republic,Congo (Democratic Republic),non-european-union-and-non-commonwealth
+migration-country,djibouti,Djibouti,non-european-union-and-non-commonwealth
+migration-country,equatorial-guinea,Equatorial Guinea,non-european-union-and-non-commonwealth
+migration-country,eritrea,Eritrea,non-european-union-and-non-commonwealth
+migration-country,ethiopia,Ethiopia,non-european-union-and-non-commonwealth
+migration-country,gabon,Gabon,non-european-union-and-non-commonwealth
+migration-country,gambia-the,"Gambia, The",non-european-union-and-non-commonwealth
+migration-country,ghana,Ghana,non-european-union-and-non-commonwealth
+migration-country,guinea,Guinea,non-european-union-and-non-commonwealth
+migration-country,guinea---bissau,Guinea - Bissau,non-european-union-and-non-commonwealth
+migration-country,ivory-coast,Ivory Coast,non-european-union-and-non-commonwealth
+migration-country,kenya,Kenya,non-european-union-and-non-commonwealth
+migration-country,lesotho,Lesotho,non-european-union-and-non-commonwealth
+migration-country,liberia,Liberia,non-european-union-and-non-commonwealth
+migration-country,madagascar,Madagascar,non-european-union-and-non-commonwealth
+migration-country,malawi,Malawi,non-european-union-and-non-commonwealth
+migration-country,mali,Mali,non-european-union-and-non-commonwealth
+migration-country,mauritius,Mauritius,non-european-union-and-non-commonwealth
+migration-country,mayotte,Mayotte,non-european-union-and-non-commonwealth
+migration-country,mozambique,Mozambique,non-european-union-and-non-commonwealth
+migration-country,namibia,Namibia,non-european-union-and-non-commonwealth
+migration-country,niger,Niger,non-european-union-and-non-commonwealth
+migration-country,nigeria,Nigeria,non-european-union-and-non-commonwealth
+migration-country,reunion,Reunion,non-european-union-and-non-commonwealth
+migration-country,rwanda,Rwanda,non-european-union-and-non-commonwealth
+migration-country,sao-tome-and-principe,Sao Tome and Principe,non-european-union-and-non-commonwealth
+migration-country,senegal,Senegal,non-european-union-and-non-commonwealth
+migration-country,seychelles,Seychelles,non-european-union-and-non-commonwealth
+migration-country,sierra-leone,Sierra Leone,non-european-union-and-non-commonwealth
+migration-country,somalia,Somalia,non-european-union-and-non-commonwealth
+migration-country,st-helena-ascension-tristan-da-cunha,St Helena / Ascension / Tristan da Cunha,non-european-union-and-non-commonwealth
+migration-country,sudan-south,"Sudan, South",non-european-union-and-non-commonwealth
+migration-country,swaziland,Swaziland,non-european-union-and-non-commonwealth
+migration-country,tanzania,Tanzania,non-european-union-and-non-commonwealth
+migration-country,togo,Togo,non-european-union-and-non-commonwealth
+migration-country,uganda,Uganda,non-european-union-and-non-commonwealth
+migration-country,zambia,Zambia,non-european-union-and-non-commonwealth
+migration-country,zimbabwe,Zimbabwe,non-european-union-and-non-commonwealth
+migration-country,algeria,Algeria,non-european-union-and-non-commonwealth
+migration-country,egypt,Egypt,non-european-union-and-non-commonwealth
+migration-country,mauritania,Mauritania,non-european-union-and-non-commonwealth
+migration-country,morocco,Morocco,non-european-union-and-non-commonwealth
+migration-country,sudan-ex,Sudan (Ex),non-european-union-and-non-commonwealth
+migration-country,sudan,Sudan,non-european-union-and-non-commonwealth
+migration-country,libya,Libya,non-european-union-and-non-commonwealth
+migration-country,tunisia,Tunisia,non-european-union-and-non-commonwealth
+migration-country,western-sahara,Western Sahara,non-european-union-and-non-commonwealth
+migration-country,united-states-of-america-usa,United States of America (USA),non-european-union-and-non-commonwealth
+migration-country,puerto-rico,Puerto Rico,non-european-union-and-non-commonwealth
+migration-country,united-states-virgin-islands-the,"United States Virgin Islands, The",non-european-union-and-non-commonwealth
+migration-country,anguilla,Anguilla,non-european-union-and-non-commonwealth
+migration-country,antigua-and-barbuda,Antigua and Barbuda,non-european-union-and-non-commonwealth
+migration-country,antilles-curacao,Antilles / Curacao,non-european-union-and-non-commonwealth
+migration-country,argentina,Argentina,non-european-union-and-non-commonwealth
+migration-country,aruba,Aruba,non-european-union-and-non-commonwealth
+migration-country,bahamas-the,"Bahamas, The",non-european-union-and-non-commonwealth
+migration-country,barbados,Barbados,non-european-union-and-non-commonwealth
+migration-country,belize,Belize,non-european-union-and-non-commonwealth
+migration-country,bermuda,Bermuda,non-european-union-and-non-commonwealth
+migration-country,bolivia,Bolivia,non-european-union-and-non-commonwealth
+migration-country,brazil,Brazil,non-european-union-and-non-commonwealth
+migration-country,british-virgin-islands,British Virgin Islands,non-european-union-and-non-commonwealth
+migration-country,cayman-islands,Cayman Islands,non-european-union-and-non-commonwealth
+migration-country,chile,Chile,non-european-union-and-non-commonwealth
+migration-country,colombia,Colombia,non-european-union-and-non-commonwealth
+migration-country,costa-rica,Costa Rica,non-european-union-and-non-commonwealth
+migration-country,cuba,Cuba,non-european-union-and-non-commonwealth
+migration-country,dominica,Dominica,non-european-union-and-non-commonwealth
+migration-country,dominican-republic,Dominican Republic,non-european-union-and-non-commonwealth
+migration-country,ecuador,Ecuador,non-european-union-and-non-commonwealth
+migration-country,el-salvador,El Salvador,non-european-union-and-non-commonwealth
+migration-country,falkland-islands-british-antarctic,Falkland Islands / British Antarctic,non-european-union-and-non-commonwealth
+migration-country,french-guiana,French Guiana,non-european-union-and-non-commonwealth
+migration-country,grenada,Grenada,non-european-union-and-non-commonwealth
+migration-country,guadeloupe,Guadeloupe,non-european-union-and-non-commonwealth
+migration-country,guatemala,Guatemala,non-european-union-and-non-commonwealth
+migration-country,guyana,Guyana,non-european-union-and-non-commonwealth
+migration-country,haiti,Haiti,non-european-union-and-non-commonwealth
+migration-country,honduras,Honduras,non-european-union-and-non-commonwealth
+migration-country,jamaica,Jamaica,non-european-union-and-non-commonwealth
+migration-country,martinique,Martinique,non-european-union-and-non-commonwealth
+migration-country,mexico,Mexico,non-european-union-and-non-commonwealth
+migration-country,montserrat,Montserrat,non-european-union-and-non-commonwealth
+migration-country,nicaragua,Nicaragua,non-european-union-and-non-commonwealth
+migration-country,panama,Panama,non-european-union-and-non-commonwealth
+migration-country,paraguay,Paraguay,non-european-union-and-non-commonwealth
+migration-country,peru,Peru,non-european-union-and-non-commonwealth
+migration-country,south-georgia-and-south-sandwich-islands,South Georgia and South Sandwich Islands,non-european-union-and-non-commonwealth
+migration-country,st-barthelemy,St Barthelemy,non-european-union-and-non-commonwealth
+migration-country,st-kitts-and-nevis,St Kitts and Nevis,non-european-union-and-non-commonwealth
+migration-country,st-lucia,St Lucia,non-european-union-and-non-commonwealth
+migration-country,st-martin,St Martin,non-european-union-and-non-commonwealth
+migration-country,st-pierre-and-miquelon,St Pierre and Miquelon,non-european-union-and-non-commonwealth
+migration-country,st-vincent-and-the-grenadines,St Vincent and the Grenadines,non-european-union-and-non-commonwealth
+migration-country,suriname,Suriname,non-european-union-and-non-commonwealth
+migration-country,trinidad-and-tobago,Trinidad and Tobago,non-european-union-and-non-commonwealth
+migration-country,turks-and-caicos-islands,Turks and Caicos Islands,non-european-union-and-non-commonwealth
+migration-country,uruguay,Uruguay,non-european-union-and-non-commonwealth
+migration-country,venezuela,Venezuela,non-european-union-and-non-commonwealth
+migration-country,american-samoa,American Samoa ,non-european-union-and-non-commonwealth
+migration-country,antarctica-not-otherwise-specified,Antarctica (not otherwise specified),non-european-union-and-non-commonwealth
+migration-country,cocos-island,Cocos Island,non-european-union-and-non-commonwealth
+migration-country,norfolk-island,Norfolk Island,non-european-union-and-non-commonwealth
+migration-country,christmas-island,Christmas Island ,non-european-union-and-non-commonwealth
+migration-country,cook-island,Cook Island,non-european-union-and-non-commonwealth
+migration-country,fiji,Fiji,non-european-union-and-non-commonwealth
+migration-country,french-polynesia,French Polynesia,non-european-union-and-non-commonwealth
+migration-country,french-southern-antarctic-territories,French Southern / Antarctic Territories,non-european-union-and-non-commonwealth
+migration-country,guam,Guam,non-european-union-and-non-commonwealth
+migration-country,kiribati-and-other-pacific-islands,Kiribati (and other Pacific Islands),non-european-union-and-non-commonwealth
+migration-country,marshall-islands,Marshall Islands,non-european-union-and-non-commonwealth
+migration-country,micronesia,Micronesia ,non-european-union-and-non-commonwealth
+migration-country,nauru,Nauru,non-european-union-and-non-commonwealth
+migration-country,new-caledonia,New Caledonia,non-european-union-and-non-commonwealth
+migration-country,tokelau,Tokelau,non-european-union-and-non-commonwealth
+migration-country,niue-island,Niue Island,non-european-union-and-non-commonwealth
+migration-country,northern-mariana-islands,Northern Mariana Islands,non-european-union-and-non-commonwealth
+migration-country,pacific-islands-inc-palau,Pacific Islands (inc Palau),non-european-union-and-non-commonwealth
+migration-country,papua-new-guinea,Papua New Guinea,non-european-union-and-non-commonwealth
+migration-country,pitcairn-island,Pitcairn Island,non-european-union-and-non-commonwealth
+migration-country,samoa-western,"Samoa, Western",non-european-union-and-non-commonwealth
+migration-country,solomon-islands,Solomon Islands,non-european-union-and-non-commonwealth
+migration-country,tonga,Tonga,non-european-union-and-non-commonwealth
+migration-country,tuvalu,Tuvalu,non-european-union-and-non-commonwealth
+migration-country,vanuatu,Vanuatu,non-european-union-and-non-commonwealth
+migration-country,wallis-and-futuna-islands,Wallis and Futuna Islands,non-european-union-and-non-commonwealth
+migration-country,iceland,Iceland,european-economic-area-eea
+migration-country,liechtenstein,Liechtenstein,european-economic-area-eea
+migration-country,norway,Norway,european-economic-area-eea
+migration-country,austria,Austria,european-economic-area-eea
+migration-country,belgium,Belgium,european-economic-area-eea
+migration-country,denmark,Denmark,european-economic-area-eea
+migration-country,finland,Finland,european-economic-area-eea
+migration-country,aland-islands,Aland Islands,european-economic-area-eea
+migration-country,france,France,european-economic-area-eea
+migration-country,germany,Germany,european-economic-area-eea
+migration-country,gibraltar,Gibraltar,european-economic-area-eea
+migration-country,greece,Greece,european-economic-area-eea
+migration-country,republic-of-ireland,Republic of Ireland,european-economic-area-eea
+migration-country,italy,Italy,european-economic-area-eea
+migration-country,luxembourg,Luxembourg,european-economic-area-eea
+migration-country,netherlands,Netherlands,european-economic-area-eea
+migration-country,portugal,Portugal,european-economic-area-eea
+migration-country,azores-and-madeira,Azores and Madeira,european-economic-area-eea
+migration-country,spain-and-balearic-islands,Spain and Balearic Islands,european-economic-area-eea
+migration-country,canary-islands,Canary Islands,european-economic-area-eea
+migration-country,spain,Spain (not otherwise specified),european-economic-area-eea
+migration-country,sweden,Sweden,european-economic-area-eea
+migration-country,czech-republic,Czech Republic,european-economic-area-eea
+migration-country,estonia,Estonia,european-economic-area-eea
+migration-country,hungary,Hungary,european-economic-area-eea
+migration-country,latvia,Latvia,european-economic-area-eea
+migration-country,lithuania,Lithuania,european-economic-area-eea
+migration-country,poland,Poland,european-economic-area-eea
+migration-country,slovakia,Slovakia,european-economic-area-eea
+migration-country,slovenia,Slovenia,european-economic-area-eea
+migration-country,bulgaria,Bulgaria,european-economic-area-eea
+migration-country,romania,Romania,european-economic-area-eea
+migration-country,iceland,Iceland,european-free-trade-association-efta
+migration-country,liechtenstein,Liechtenstein,european-free-trade-association-efta
+migration-country,norway,Norway,european-free-trade-association-efta
+migration-country,austria,Austria,european-free-trade-association-efta
+migration-country,belgium,Belgium,european-free-trade-association-efta
+migration-country,denmark,Denmark,european-free-trade-association-efta
+migration-country,finland,Finland,european-free-trade-association-efta
+migration-country,aland-islands,Aland Islands,european-free-trade-association-efta
+migration-country,france,France,european-free-trade-association-efta
+migration-country,germany,Germany,european-free-trade-association-efta
+migration-country,gibraltar,Gibraltar,european-free-trade-association-efta
+migration-country,greece,Greece,european-free-trade-association-efta
+migration-country,republic-of-ireland,Republic of Ireland,european-free-trade-association-efta
+migration-country,italy,Italy,european-free-trade-association-efta
+migration-country,luxembourg,Luxembourg,european-free-trade-association-efta
+migration-country,netherlands,Netherlands,european-free-trade-association-efta
+migration-country,portugal,Portugal,european-free-trade-association-efta
+migration-country,azores-and-madeira,Azores and Madeira,european-free-trade-association-efta
+migration-country,spain-and-balearic-islands,Spain and Balearic Islands,european-free-trade-association-efta
+migration-country,canary-islands,Canary Islands,european-free-trade-association-efta
+migration-country,spain,Spain (not otherwise specified),european-free-trade-association-efta
+migration-country,sweden,Sweden,european-free-trade-association-efta
+migration-country,czech-republic,Czech Republic,european-free-trade-association-efta
+migration-country,estonia,Estonia,european-free-trade-association-efta
+migration-country,hungary,Hungary,european-free-trade-association-efta
+migration-country,latvia,Latvia,european-free-trade-association-efta
+migration-country,lithuania,Lithuania,european-free-trade-association-efta
+migration-country,poland,Poland,european-free-trade-association-efta
+migration-country,slovakia,Slovakia,european-free-trade-association-efta
+migration-country,slovenia,Slovenia,european-free-trade-association-efta
+migration-country,bulgaria,Bulgaria,european-free-trade-association-efta
+migration-country,romania,Romania,european-free-trade-association-efta
+migration-country,switerzerland,Switerzerland,european-free-trade-association-efta
+migration-country,anguilla,Anguilla,new-commonwealth
+migration-country,nigeria,Nigeria,new-commonwealth
+migration-country,antigua-and-barbuda,Antigua and Barbuda,new-commonwealth
+migration-country,niue-island,Niue Island,new-commonwealth
+migration-country,bahamas-the,"Bahamas, The",new-commonwealth
+migration-country,norfolk-island,Norfolk Island,new-commonwealth
+migration-country,bangladesh,Bangladesh,new-commonwealth
+migration-country,pacific-islands-inc-palau,Pacific Islands (inc Palau),new-commonwealth
+migration-country,barbados,Barbados,new-commonwealth
+migration-country,pakistan,Pakistan,new-commonwealth
+migration-country,belize,Belize,new-commonwealth
+migration-country,papua-new-guinea,Papua New Guinea,new-commonwealth
+migration-country,bermuda,Bermuda,new-commonwealth
+migration-country,pitcairn-island,Pitcairn Island,new-commonwealth
+migration-country,botswana,Botswana,new-commonwealth
+migration-country,samoa-western,"Samoa, Western",new-commonwealth
+migration-country,british-indian-ocean-territory,British Indian Ocean Territory,new-commonwealth
+migration-country,seychelles,Seychelles,new-commonwealth
+migration-country,british-overseas,British Overseas,new-commonwealth
+migration-country,sierra-leone,Sierra Leone,new-commonwealth
+migration-country,british-virgin-islands,British Virgin Islands,new-commonwealth
+migration-country,singapore,Singapore,new-commonwealth
+migration-country,brunei,Brunei,new-commonwealth
+migration-country,solomon-islands,Solomon Islands,new-commonwealth
+migration-country,cameroon,Cameroon,new-commonwealth
+migration-country,south-georgia-and-south-sandwich-islands,South Georgia and South Sandwich Islands,new-commonwealth
+migration-country,cayman-islands,Cayman Islands,new-commonwealth
+migration-country,sri-lanka,Sri Lanka,new-commonwealth
+migration-country,christmas-island,Christmas Island ,new-commonwealth
+migration-country,st-helena-ascension-tristan-da-cunha,St Helena / Ascension / Tristan da Cunha,new-commonwealth
+migration-country,cocos-island,Cocos Island,new-commonwealth
+migration-country,st-kitts-and-nevis,St Kitts and Nevis,new-commonwealth
+migration-country,cook-island,Cook Island,new-commonwealth
+migration-country,st-lucia,St Lucia,new-commonwealth
+migration-country,cyprus-northern,"Cyprus, Northern ",new-commonwealth
+migration-country,st-vincent-and-the-grenadines,St Vincent and the Grenadines,new-commonwealth
+migration-country,dominica,Dominica,new-commonwealth
+migration-country,swaziland,Swaziland,new-commonwealth
+migration-country,falkland-islands-british-antarctic,Falkland Islands / British Antarctic,new-commonwealth
+migration-country,tanzania,Tanzania,new-commonwealth
+migration-country,gambia-the,"Gambia, The",new-commonwealth
+migration-country,tonga,Tonga,new-commonwealth
+migration-country,ghana,Ghana,new-commonwealth
+migration-country,trinidad-and-tobago,Trinidad and Tobago,new-commonwealth
+migration-country,grenada,Grenada,new-commonwealth
+migration-country,turks-and-caicos-islands,Turks and Caicos Islands,new-commonwealth
+migration-country,guyana,Guyana,new-commonwealth
+migration-country,tuvalu,Tuvalu,new-commonwealth
+migration-country,india,India,new-commonwealth
+migration-country,uganda,Uganda,new-commonwealth
+migration-country,jamaica,Jamaica,new-commonwealth
+migration-country,vanuatu,Vanuatu,new-commonwealth
+migration-country,kenya,Kenya,new-commonwealth
+migration-country,wallis-and-futuna-islands,Wallis and Futuna Islands,new-commonwealth
+migration-country,kiribati-and-other-pacific-islands,Kiribati (and other Pacific Islands),new-commonwealth
+migration-country,zambia,Zambia,new-commonwealth
+migration-country,lesotho,Lesotho,new-commonwealth
+migration-country,zimbabwe,Zimbabwe,new-commonwealth
+migration-country,malawi,Malawi,new-commonwealth
+migration-country,malaysia,Malaysia,new-commonwealth
+migration-country,mauritius,Mauritius,new-commonwealth
+migration-country,montserrat,Montserrat,new-commonwealth
+migration-country,mozambique,Mozambique,new-commonwealth
+migration-country,namibia,Namibia,new-commonwealth
+migration-country,nauru,Nauru,new-commonwealth
+migration-country,austria,Austria,europe-inc-european-union
+migration-country,belgium,Belgium,europe-inc-european-union
+migration-country,denmark,Denmark,europe-inc-european-union
+migration-country,finland,Finland,europe-inc-european-union
+migration-country,aland-islands,Aland Islands,europe-inc-european-union
+migration-country,france,France,europe-inc-european-union
+migration-country,germany,Germany,europe-inc-european-union
+migration-country,gibraltar,Gibraltar,europe-inc-european-union
+migration-country,greece,Greece,europe-inc-european-union
+migration-country,republic-of-ireland,Republic of Ireland,europe-inc-european-union
+migration-country,italy,Italy,europe-inc-european-union
+migration-country,luxembourg,Luxembourg,europe-inc-european-union
+migration-country,netherlands,Netherlands,europe-inc-european-union
+migration-country,portugal,Portugal,europe-inc-european-union
+migration-country,azores-and-madeira,Azores and Madeira,europe-inc-european-union
+migration-country,spain-and-balearic-islands,Spain and Balearic Islands,europe-inc-european-union
+migration-country,canary-islands,Canary Islands,europe-inc-european-union
+migration-country,spain,Spain (not otherwise specified),europe-inc-european-union
+migration-country,sweden,Sweden,europe-inc-european-union
+migration-country,czech-republic,Czech Republic,europe-inc-european-union
+migration-country,estonia,Estonia,europe-inc-european-union
+migration-country,hungary,Hungary,europe-inc-european-union
+migration-country,latvia,Latvia,europe-inc-european-union
+migration-country,lithuania,Lithuania,europe-inc-european-union
+migration-country,poland,Poland,europe-inc-european-union
+migration-country,slovakia,Slovakia,europe-inc-european-union
+migration-country,slovenia,Slovenia,europe-inc-european-union
+migration-country,bulgaria,Bulgaria,europe-inc-european-union
+migration-country,romania,Romania,europe-inc-european-union
+migration-country,albania,Albania,europe-inc-european-union
+migration-country,andorra,Andorra,europe-inc-european-union
+migration-country,armenia,Armenia,europe-inc-european-union
+migration-country,azerbaijan,Azerbaijan,europe-inc-european-union
+migration-country,belarus,Belarus,europe-inc-european-union
+migration-country,bosnia-herzegovina,Bosnia Herzegovina,europe-inc-european-union
+migration-country,cyprus-northern,"Cyprus, Northern ",europe-inc-european-union
+migration-country,czechoslovakia-ex,Czechoslovakia (Ex),europe-inc-european-union
+migration-country,faeroe-islands,Faeroe Islands,europe-inc-european-union
+migration-country,georgia,Georgia,europe-inc-european-union
+migration-country,greenland,Greenland,europe-inc-european-union
+migration-country,iceland,Iceland,europe-inc-european-union
+migration-country,kosova,Kosova,europe-inc-european-union
+migration-country,liechtenstein,Liechtenstein,europe-inc-european-union
+migration-country,macedonia,Macedonia,europe-inc-european-union
+migration-country,moldova,Moldova,europe-inc-european-union
+migration-country,monaco,Monaco,europe-inc-european-union
+migration-country,montenegro,Montenegro,europe-inc-european-union
+migration-country,norway,Norway,europe-inc-european-union
+migration-country,bouvet-island,Bouvet Island,europe-inc-european-union
+migration-country,svalbard-and-jan-mayen,Svalbard and Jan Mayen,europe-inc-european-union
+migration-country,russia,Russia,europe-inc-european-union
+migration-country,san-marino,San Marino,europe-inc-european-union
+migration-country,serbia,Serbia,europe-inc-european-union
+migration-country,switzerland,Switzerland,europe-inc-european-union
+migration-country,turkey,Turkey,europe-inc-european-union
+migration-country,ukraine,Ukraine,europe-inc-european-union
+migration-country,ussr-ex,USSR (Ex),europe-inc-european-union
+migration-country,vatican-city,Vatican City,europe-inc-european-union
+migration-country,yugoslavia-ex,Yugoslavia (Ex),europe-inc-european-union
+migration-country,yugoslavia-not-otherwise-specified,Yugoslavia (not otherwise specified),europe-inc-european-union

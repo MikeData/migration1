@@ -3,7 +3,7 @@ import pandas as pd
 
 files = [f for f in os.listdir('.') if os.path.isfile(f)]
 
-argList = ["AGQ_", "AG1_", "AG2_"]
+argList = ["AGQ", "AG1", "AG2"]
 
 for arg in argList:
     aList = [x for x in files if arg in x]

@@ -142,8 +142,14 @@ Splitting out the row and col vars
 """
 
 def codeListify(cell):
+    cell = cell.replace("  ", " ")
     cell = cell.replace(" / ", " ")
     cell = cell.replace(" ", "-")
+    cell = cell.replace("(", "")
+    cell = cell.replace(")", "")
+    cell = cell.replace(",", "")
+    if cell[-1:] == "-":
+        cell = cell[:-1]
     cell = cell.lower()
     return cell
 
@@ -181,18 +187,35 @@ def cleanCountry(country):
 # Add basic country data
 flattenedDf["country"] = flattenedDf["colVars"].astype(str).apply(cleanCountry)
 
-# Style if into codes
-flattenedDf["migration-country_codelist"] = flattenedDf["country"].apply(codeListify)
-
 # Now apply more verbose/use-friendly labels
 for key in topLevelDict.keys():
     flattenedDf["country"] = flattenedDf["country"].map(lambda x: x.replace(key,topLevelDict[key]))
 
+# Style if into codes
+flattenedDf["migration-country_codelist"] = flattenedDf["country"].apply(codeListify)
 
 # delete
 for col in ["rowVars","colVars"]:
     flattenedDf = flattenedDf.drop(col, axis=1)
 
+
+# Corrections to match the country_codelist and hierarchy
+corrections = [
+    ["european-free-trade-associationefta","european-free-trade-association-efta"],
+    ["european-free-trade-areaeea","european-free-trade-area-eea"],
+    ["european-union15","european-union-eu15"],
+    ["european-union8","european-union-eu8"],
+    ["european-union2","european-union-eu2"],
+    ["commonwealth-all","commonwealth"],
+    ["old-commonwealth-all","old-commonwealth"],
+    ["new-commonwealth-all","new-commonwealth"],
+    ["spain-not-otherwise-specified", "spain"],
+    ["usa", "united-states-of-america-usa"],
+    ["non-european-union-and-non-commonwealth-all","non-european-union-and-non-commonwealth"],
+    ["european-economic-areaeea", "european-economic-area-eea"]
+]
+for cr in corrections:
+    flattenedDf["migration-country_codelist"][flattenedDf["migration-country_codelist"] == cr[0]] = cr[1]
 
 
 """
