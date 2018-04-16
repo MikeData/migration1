@@ -1,25 +1,29 @@
 # migration1
 first go at migration.
 
-The files you want are the combinedyears files, there are 3 of them in loadfiles.zip (See below for why there are 3 files). 
-
 
 ### Usage
 
-Clone this repo and download all the relevent (4.01) migration .xls files into its directory, then run either convertAll.sh (MAC) or convertAll.cmd (windows).
+Clone this repo and download all the relevent (4.01) migration .xls files into its directory, then run either convertAll.sh (if you're on windows put the same commands into a batch file).
 
 note. On MAC you'll need to `chmod +x convertAll.sh` first.
 
 You can add or subtract years from the CSV to be outputted by changing this file. It's pretty self explanatory.
 
 
+### Hierarchy
+
+The hierarchy CSV created the groupings and was generated using information in the spreadsheet internationalmigrationtableofcontents.xls (linked to from the contents sheet of the data excels) as well as the groupings shown within the data.
 
 ### Age Groups
 
 There are three age groupings present in the data (shown below). We can't differentiate with
 a dimension without introducing tons of sparsity.
 
-Didnt want to mix all three in age as it'd look a bit mad so I've extracted as three separate files, so you can always merge them together if you like.
+The script generates all three but for now we're just using AGQ (details of the groupings are given below).
+
+
+### Age Groupings
 
 Quinary age groups	(AGQ)
 0 - 4
@@ -41,8 +45,8 @@ Quinary age groups	(AGQ)
 	80 - 84
 	85 - 89
 	90 and over
-  
-  
+
+
 Alternative age groups 1	 (AG1)
 0 - 16
 	17 - 18
@@ -50,8 +54,8 @@ Alternative age groups 1	 (AG1)
 	22 - 59
 	60 - 64
 	65 and over
-	
-	
+
+
 Alternative age groups 2	(AG2)
 0 - 14
 	15 - 24
@@ -59,4 +63,3 @@ Alternative age groups 2	(AG2)
 	45 - 59
 	60 - 64
 	65 and over
-  
